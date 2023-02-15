@@ -7,7 +7,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ChromeTest {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
 		WebDriverManager.chromedriver().setup();
 		
@@ -17,7 +17,7 @@ public class ChromeTest {
 		
 		driver.get("https://www.myntra.com/");
 		
-		Thread.sleep(5000);
+		Thread.sleep(1000);
 		driver.quit();
 		
 	}
