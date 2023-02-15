@@ -17,6 +17,7 @@ public class ChromeTest {
 		
 		driver.get("https://www.myntra.com/");
 		
+		Thread.sleep(5000);
 		driver.quit();
 		
 	}
