@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MRS4">
+  <test name="TC_001_CreateRecord4">
+	  <parameter name="Browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.automation.Frameworks.TC_001_CreateRecord4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

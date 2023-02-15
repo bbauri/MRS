@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-15T07:56:56 EST" name="Suite" finished-at="2023-02-15T07:57:17 EST" duration-ms="20894">
+    <groups>
+    </groups>
+    <test started-at="2023-02-15T07:56:56 EST" name="DriverScript_3" finished-at="2023-02-15T07:57:17 EST" duration-ms="20894">
+      <class name="com.automation.KeyWordDrivenFramework.DriverScript_3">
+        <test-method is-config="true" signature="OpenBrowsrer(java.lang.String)[pri:0, instance:com.automation.KeyWordDrivenFramework.DriverScript_3@28dcca0c]" started-at="2023-02-15T07:56:56 EST" name="OpenBrowsrer" finished-at="2023-02-15T07:57:09 EST" duration-ms="13022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowsrer -->
+        <test-method signature="execute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.KeyWordDrivenFramework.DriverScript_3@28dcca0c]" started-at="2023-02-15T07:57:10 EST" name="execute" data-provider="getTestData" finished-at="2023-02-15T07:57:11 EST" duration-ms="763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_001_CreateRecord]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Enter Application URL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[visit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://demo.openmrs.org/openmrs/login.htm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method signature="execute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.KeyWordDrivenFramework.DriverScript_3@28dcca0c]" started-at="2023-02-15T07:57:11 EST" name="execute" data-provider="getTestData" finished-at="2023-02-15T07:57:11 EST" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Enter UserName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[setValue]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id=username]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method signature="execute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.KeyWordDrivenFramework.DriverScript_3@28dcca0c]" started-at="2023-02-15T07:57:11 EST" name="execute" data-provider="getTestData" finished-at="2023-02-15T07:57:11 EST" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Enter Password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[setValue]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id=password]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method signature="execute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.KeyWordDrivenFramework.DriverScript_3@28dcca0c]" started-at="2023-02-15T07:57:11 EST" name="execute" data-provider="getTestData" finished-at="2023-02-15T07:57:11 EST" duration-ms="101" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Click on Rdesk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id=Registration Desk]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method signature="execute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.KeyWordDrivenFramework.DriverScript_3@28dcca0c]" started-at="2023-02-15T07:57:11 EST" name="execute" data-provider="getTestData" finished-at="2023-02-15T07:57:14 EST" duration-ms="2812" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Click on Login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id=loginButton]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method signature="execute(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.automation.KeyWordDrivenFramework.DriverScript_3@28dcca0c]" started-at="2023-02-15T07:57:14 EST" name="execute" data-provider="getTestData" finished-at="2023-02-15T07:57:16 EST" duration-ms="1456" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Click on Logout]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[partialLinkText=Logout]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method is-config="true" signature="CloseBrowsr()[pri:0, instance:com.automation.KeyWordDrivenFramework.DriverScript_3@28dcca0c]" started-at="2023-02-15T07:57:16 EST" name="CloseBrowsr" finished-at="2023-02-15T07:57:17 EST" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowsr -->
+      </class> <!-- com.automation.KeyWordDrivenFramework.DriverScript_3 -->
+    </test> <!-- DriverScript_3 -->
+  </suite> <!-- Suite -->
+</testng-results>

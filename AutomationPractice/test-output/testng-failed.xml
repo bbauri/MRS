@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MRS]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TC_001_CreateRecord_2(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.automation.POM.TC_001_CreateRecord_2">
+        <methods>
+          <include name="createRecord"/>
+          <include name="CloseBrowsr"/>
+          <include name="OpenBrowsrer"/>
+        </methods>
+      </class> <!-- com.automation.POM.TC_001_CreateRecord_2 -->
+    </classes>
+  </test> <!-- TC_001_CreateRecord_2(failed) -->
+</suite> <!-- Failed suite [MRS] -->
